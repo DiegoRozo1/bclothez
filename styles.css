@@ -167,14 +167,14 @@ footer{
     #submitButton{
         font-size: 0.9em;
     }
-}
-@media(max-width: 400px){
     footer{
         flex-direction: column;
     }
     .socialMedia li{
         display: inline;
     }
+}
+@media(max-width: 480px){
     .map h2{
         font-size: 1.7em;
         width: 70vw;
